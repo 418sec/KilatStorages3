@@ -11,7 +11,6 @@ KilatS3.makeBucket = function makeBucket(bucketName) {
     bucketName = shellescape([bucketName]);
     const results = exec(`s3cmd mb s3://${bucketName}`);
     if (results.code === 0) {
-      console.log('Test')
       resolve(results.stdout);
     } else {
       reject(new Error(results.error));

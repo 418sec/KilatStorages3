@@ -41,6 +41,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "shell-escape": "^0.2.0",
     "shelljs": "^0.8.3",
     "shelljs.exec": "^1.1.8"
   },

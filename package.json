@@ -40,10 +40,7 @@
     "url": "https://github.com/LordAur/KilatStorages3"
   },
   "license": "MIT",
-  "dependencies": {
-    "shelljs": "^0.8.3",
-    "shelljs.exec": "^1.1.8"
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^5.4.0",
     "eslint-config-airbnb-base": "^13.1.0",
